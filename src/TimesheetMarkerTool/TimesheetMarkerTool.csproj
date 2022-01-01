@@ -6,6 +6,12 @@
     <Nullable>enable</Nullable>
     <UseWindowsForms>true</UseWindowsForms>
     <ImplicitUsings>enable</ImplicitUsings>
+    <PublishSingleFile>true</PublishSingleFile>
+    <SelfContained>false</SelfContained>
+    <RuntimeIdentifier>win-x64</RuntimeIdentifier>
+    <PublishReadyToRun>true</PublishReadyToRun>
+    <!-- This doesn't work in .NET 6 SDK yet, so MS made it a compile error. -->
+    <!--<PublishTrimmed>true</PublishTrimmed>-->
   </PropertyGroup>
 
 </Project>
