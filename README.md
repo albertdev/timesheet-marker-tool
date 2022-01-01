@@ -35,7 +35,7 @@ When passing input, there are 5 kinds of formats:
 
 For use with ManicTime you would then need to create a file `c:\Users\<User>\AppData\Local\Finkit\ManicTime\Plugins\Storage\ManicTime.DocumentTracker.CustomTitle\Content\CustomTitle.txt`. (You can copy information about the format from `c:\Program Files (x86)\ManicTime\Plugins\Packages\ManicTime.DocumentTracker.CustomTitle\Lib\CustomTitle.txt`)
 
-Add a line like this, where you need to replace <TAB> with a literal Tab character:
+Add a line like this, where you need to replace `<TAB>` with a literal Tab character:
 ```
 timesheetmarkertool<TAB>[^-]+- ([^@]*) @@.*<TAB>.*@@ ([^@]*) @@$
 ```
