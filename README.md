@@ -39,3 +39,11 @@ Add a line like this, where you need to replace `<TAB>` with a literal Tab chara
 ```
 timesheetmarkertool<TAB>[^-]+- ([^@]*) @@.*<TAB>.*@@ ([^@]*) @@$
 ```
+
+After restarting ManicTime you will see activity types and descriptions in the Document timeline.
+
+Its recommended to setup Autotags on the Applications timeline. Select that timeline and filter on `#"^TimesheetMarkerTool - ([^-]+) @@ ([^@]*) @@$"`,
+then click the big "down" arrow and pick "Add to Autotags". Then one can set tag to `{{1}}` and description to `{{2}}`.
+
+It's recommended to setup an "Absorb" autotag for the input though (and paired only with the rule above), that way the input gets automatically
+matched to the entered activity.
